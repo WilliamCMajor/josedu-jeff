@@ -1,0 +1,32 @@
+
+.sculpture aside {
+    margin-bottom: 4.8rem;
+}
+
+.sculpture-view img {
+    max-height: 90rem;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px #555;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .sculpture-view img {
+        max-width: 90%;
+    }
+}
+
+.thumb-view {
+    display: flex;
+}
+
+.thumb-view img {
+    width: 15%;
+    height: 50%;
+    margin-right: 2.4rem;
+    margin-top: 2.4rem;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px #555;
+    border-radius: 5px;
+}
+
